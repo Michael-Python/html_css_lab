@@ -1,0 +1,18 @@
+
+body > header > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: dodgerblue;
+}
+body > header > section > nav > ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    list-style: none;
+  }
+body > header > section > nav > ul {
+    margin-right: 8px;
+}
