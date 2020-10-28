@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CC Travel</title>
+</head>
+<body>
+    <header>
+        <section>
+            <h1>CC Travel</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/home">
+                            <button class="button">
+                                Home
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/about">
+                            <button class="button">
+                                About
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/blog">
+                            <button class="button">
+                                Blog
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/contact">
+                            <button class="button">
+                                Contact
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <img src="images/indonesia1.jpg" height=178 alt="Indonesia">
+            <img src="images/oz1.jpg" height=178 alt="Australia">
+            <img src="images/swiss1.jpg" height=178 alt="Switzerland">
+        </section>
+        <section>
+            <h2>Where do you want to go?</h2>
+            <form>
+                <label for="place-to-go"></label>
+                <input type="text" id="placetogo" name="placetogo" value="Where to go?">
+                <label for="ddmmyy"></label>
+                <input type="date" id="tripdate" name="tripdate"
+                    value="dd/mm/yyyy"
+                    min="01-01-2020" max="31-12-2020">
+                <label for="travel-type"></label>
+                <select name="travel-type" id="travel-type">
+                    <option value="">Travel Type</option>
+                    <option value="package">Package Holiday</option>
+                    <option value="flight-and-hotel">Flight and Hotel</option>
+                    <option value="flights">Flights only</option>
+                    <option value="hotel">Hotel only</option>
+                </select>
+            </form>
+        </section>
+    </header>
+    
+</body>
+</html>
+
